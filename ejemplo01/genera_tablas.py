@@ -31,7 +31,7 @@ class Club(Base):
 
     
     def __repr__(self):
-        return "Club(%d): nombre=%s deporte=%s fundación=%d" % (
+        return "Club-%d-: nombre=%s deporte=%s fundación=%d" % (
                           self.id, 
                           self.nombre, 
                           self.deporte, 
